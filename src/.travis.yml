@@ -3,7 +3,7 @@ node_js:
 - "iojs"
 - "8"
 branches:
-  only:
+  except:
   - gh-pages
   - /.*/
 before_install: npm install
