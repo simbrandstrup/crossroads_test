@@ -1,4 +1,4 @@
-var assert = require('chai');
+var assert = require('assert');
 var checkEmailforEdu = require('../utilities/checkEmailForEdu');
 describe('checkEmailforEdu', function () {
     it("confirms that email contains 'edu'", function () {
